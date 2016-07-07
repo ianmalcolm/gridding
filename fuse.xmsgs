@@ -5,16 +5,22 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/ian/github/gridding/tb_F.v" Line 87: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">din</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/ian/github/gridding/BRAM.v" Line 64: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">9</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/ian/github/gridding/tb_F.v" Line 90: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">dout</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/ian/github/gridding/BRAM.v" Line 68: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addrb</arg>&gt;. Formal port size is <arg fmt="%d" index="2">9</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/ian/github/gridding/tb_F.v" Line 98: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">din</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"C:/Users/ian/github/gridding/BUFFER.v" Line 44: Element index <arg fmt="%d" index="1">-1</arg> into <arg fmt="%s" index="2">shift_reg</arg> is out of bounds
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/ian/github/gridding/tb_F.v" Line 101: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">dout</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/ian/github/gridding/tb_F.v" Line 109: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">din</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/ian/github/gridding/tb_F.v" Line 112: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">dout</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
 </msg>
 
 </messages>

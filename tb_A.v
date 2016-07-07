@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module tb_MEM_GRID;
+module tb_A;
 
 	// Inputs
 	reg [DATA_PATH_WIDTH-1:0] din;
@@ -51,7 +51,7 @@ module tb_MEM_GRID;
 	reg [BRAM_PARALLELISM_BITS+BRAM_DEPTH_BITS-1:0] ans_addr [50-1:0];
 
 	// Instantiate the Unit Under Test (UUT)
-	MEM_GRID  #(
+	A  #(
 	.COMPLEX(COMPLEX),
 	.PRECISION(PRECISION),
 	.PARALLELISM(PARALLELISM),
@@ -117,6 +117,40 @@ module tb_MEM_GRID;
 		repeat(1) @(posedge clk);
 		addr = 14'h00e0;
 		din = tb_op1[9'h00e][DATA_PATH_WIDTH-1:0];
+
+//////////////////////////////////////////////////////////
+
+		repeat(1) @(posedge clk);
+		addr = 14'h0000;
+		din = tb_op1[9'h010][DATA_PATH_WIDTH-1:0];
+		
+		repeat(1) @(posedge clk);
+		addr = 14'h0020;
+		din = tb_op1[9'h012][DATA_PATH_WIDTH-1:0];
+
+		repeat(1) @(posedge clk);
+		addr = 14'h0040;
+		din = tb_op1[9'h014][DATA_PATH_WIDTH-1:0];
+
+		repeat(1) @(posedge clk);
+		addr = 14'h0060;
+		din = tb_op1[9'h016][DATA_PATH_WIDTH-1:0];
+
+		repeat(1) @(posedge clk);
+		addr = 14'h0080;
+		din = tb_op1[9'h018][DATA_PATH_WIDTH-1:0];
+
+		repeat(1) @(posedge clk);
+		addr = 14'h00a0;
+		din = tb_op1[9'h01a][DATA_PATH_WIDTH-1:0];
+
+		repeat(1) @(posedge clk);
+		addr = 14'h00c0;
+		din = tb_op1[9'h01c][DATA_PATH_WIDTH-1:0];
+
+		repeat(1) @(posedge clk);
+		addr = 14'h00e0;
+		din = tb_op1[9'h01e][DATA_PATH_WIDTH-1:0];
 
 		repeat(1) @(posedge clk);
 		we = 0;

@@ -7,16 +7,25 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/A C:|Users|ian|github|gridding|A.v</ClosedNode>
+         <ClosedNode>/A C:|Users|ian|github|gridding|A.v/adder - ADDER</ClosedNode>
+         <ClosedNode>/A C:|Users|ian|github|gridding|A.v/bram - BRAM</ClosedNode>
          <ClosedNode>/BRAM C:|Users|ian|github|gridding|BRAM.v</ClosedNode>
+         <ClosedNode>/COMPLEX_MULTIPLIER C:|Users|ian|github|gridding|COMPLEX_MULTIPLIER.v</ClosedNode>
+         <ClosedNode>/F C:|Users|ian|github|gridding|F.v</ClosedNode>
+         <ClosedNode>/GRIDDING_KERNEL C:|Users|ian|github|gridding|GRIDDING_KERNEL.v/comp_mul - COMPLEX_MULTIPLIER</ClosedNode>
+         <ClosedNode>/L C:|Users|ian|github|gridding|L.v</ClosedNode>
+         <ClosedNode>/M C:|Users|ian|github|gridding|M.v</ClosedNode>
+         <ClosedNode>/M C:|Users|ian|github|gridding|M.v/comp_mul - COMPLEX_MULTIPLIER</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>MEM_GRID (C:/Users/ian/github/gridding/MEM_GRID.v)</SelectedItem>
+         <SelectedItem>coeff_i - BRAM_COEFF (C:/Users/ian/github/gridding/ipcore_dir/BRAM_COEFF.xco)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e50000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e5000000020000000000000000000000000200000064ffffffff000000810000000300000002000000e50000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>MEM_GRID (C:/Users/ian/github/gridding/MEM_GRID.v)</CurrentItem>
+      <CurrentItem>coeff_i - BRAM_COEFF (C:/Users/ian/github/gridding/ipcore_dir/BRAM_COEFF.xco)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -38,12 +47,14 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>COMBINATOR.v</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000032b000000040101000100000000000000000000000064ffffffff000000810000000000000004000000b20000000100000000000000fc0000000100000000000000780000000100000000000001050000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>ADDER.v</CurrentItem>
+      <CurrentItem>COMBINATOR.v</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -52,7 +63,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000121000000010001000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000194000000010001000100000000000000000000000064ffffffff000000810000000000000001000001940000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -62,41 +73,52 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000194000000010000000100000000000000000000000064ffffffff000000810000000000000001000001940000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>View HDL Instantiation Template</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000194000000010000000100000000000000000000000064ffffffff000000810000000000000001000001940000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>View HDL Instantiation Template</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000012d0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/A C:|Users|ian|github|gridding|A.v</ClosedNode>
+         <ClosedNode>/L C:|Users|ian|github|gridding|L.v</ClosedNode>
+         <ClosedNode>/M C:|Users|ian|github|gridding|M.v</ClosedNode>
+         <ClosedNode>/tb_A C:|Users|ian|github|gridding|tb_A.v</ClosedNode>
+         <ClosedNode>/tb_A C:|Users|ian|github|gridding|tb_A.v/uut - A/adder - ADDER</ClosedNode>
+         <ClosedNode>/tb_A C:|Users|ian|github|gridding|tb_A.v/uut - A/bram - BRAM</ClosedNode>
+         <ClosedNode>/tb_A C:|Users|ian|github|gridding|tb_MEM_GRID.v</ClosedNode>
+         <ClosedNode>/tb_COMPLEX_MULTIPLIER C:|Users|ian|github|gridding|tb_COMPLEX_MULTIPLIER.v</ClosedNode>
+         <ClosedNode>/tb_DIVIDER C:|Users|ian|github|gridding|tb_DIVIDER.v/uut - A</ClosedNode>
+         <ClosedNode>/tb_F C:|Users|ian|github|gridding|tb_F.v/uut - F</ClosedNode>
+         <ClosedNode>/tb_MEM_GRID C:|Users|ian|github|gridding|tb_MEM_GRID.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>tb_MEM_GRID (C:/Users/ian/github/gridding/tb_MEM_GRID.v)</SelectedItem>
+         <SelectedItem>tb_F (C:/Users/ian/github/gridding/tb_F.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f90000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>tb_MEM_GRID (C:/Users/ian/github/gridding/tb_MEM_GRID.v)</CurrentItem>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000183000000020000000000000000000000000200000064ffffffff000000810000000300000002000001830000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tb_F (C:/Users/ian/github/gridding/tb_F.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -104,38 +126,38 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000194000000010000000100000000000000000000000064ffffffff000000810000000000000001000001940000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000194000000010000000100000000000000000000000064ffffffff000000810000000000000001000001940000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000194000000010000000100000000000000000000000064ffffffff000000810000000000000001000001940000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
 </Project>

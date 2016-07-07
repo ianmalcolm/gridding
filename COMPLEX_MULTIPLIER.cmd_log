@@ -1,0 +1,3 @@
+vhdtdtfi -lib work C:/Users/ian/github/gridding/COMPLEX_MULTIPLIER.v -lang verilog -prj gridding -o COMPLEX_MULTIPLIER.spl -module COMPLEX_MULTIPLIER -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex6 COMPLEX_MULTIPLIER.spl C:/Users/ian/github/gridding/COMPLEX_MULTIPLIER.sym 
+vhdtdtfi -lang verilog -prj gridding -o C:/Users/ian/github/gridding/COMPLEX_MULTIPLIER.tfi -lib work C:/Users/ian/github/gridding//COMPLEX_MULTIPLIER.v -module COMPLEX_MULTIPLIER -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

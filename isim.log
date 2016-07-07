@@ -1,0 +1,17 @@
+ISim log file
+Running: C:\Users\ian\github\gridding\tb_F_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/ian/github/gridding/tb_F_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "C:/Users/ian/github/gridding/tb_F.v" Line 34.  For instance tb_F/fifo_offset/, width 32 of formal port din is not equal to width 16 of actual variable fifo_offset_din. 
+WARNING: File "C:/Users/ian/github/gridding/tb_F.v" Line 51.  For instance tb_F/fifo_offset/, width 32 of formal port dout is not equal to width 16 of actual signal offset.
+WARNING: File "C:/Users/ian/github/gridding/tb_F.v" Line 35.  For instance tb_F/fifo_iu/, width 32 of formal port din is not equal to width 16 of actual variable fifo_iu_din. 
+WARNING: File "C:/Users/ian/github/gridding/tb_F.v" Line 49.  For instance tb_F/fifo_iu/, width 32 of formal port dout is not equal to width 16 of actual signal iu.
+WARNING: File "C:/Users/ian/github/gridding/tb_F.v" Line 36.  For instance tb_F/fifo_iv/, width 32 of formal port din is not equal to width 16 of actual variable fifo_iv_din. 
+WARNING: File "C:/Users/ian/github/gridding/tb_F.v" Line 50.  For instance tb_F/fifo_iv/, width 32 of formal port dout is not equal to width 16 of actual signal iv.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+                   0 << Starting the Simulation >>
+Finished circuit initialization process.

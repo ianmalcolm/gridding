@@ -24,7 +24,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module MEM_GRID(
+module A(
 	input [DATA_PATH_WIDTH-1:0] din,	// Write port width 15 data * 64 bits per data = 960 bits
 	input [BRAM_DEPTH_BITS+BRAM_PARALLELISM_BITS-1:0] addr,
 	output [DATA_PATH_WIDTH-1:0] dout,
